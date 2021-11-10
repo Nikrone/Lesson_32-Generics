@@ -13,6 +13,7 @@
 		71784566273C267100A5AFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71784564273C267100A5AFA2 /* Main.storyboard */; };
 		71784568273C267200A5AFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71784567273C267200A5AFA2 /* Assets.xcassets */; };
 		7178456B273C267200A5AFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71784569273C267200A5AFA2 /* LaunchScreen.storyboard */; };
+		71784573273C2DA400A5AFA2 /* RandomPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71784572273C2DA400A5AFA2 /* RandomPublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		71784567273C267200A5AFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7178456A273C267200A5AFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7178456C273C267200A5AFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71784572273C2DA400A5AFA2 /* RandomPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7178455E273C267100A5AFA2 /* AppDelegate.swift */,
 				71784560273C267100A5AFA2 /* SceneDelegate.swift */,
 				71784562273C267100A5AFA2 /* ViewController.swift */,
+				71784572273C2DA400A5AFA2 /* RandomPublisher.swift */,
 				71784564273C267100A5AFA2 /* Main.storyboard */,
 				71784567273C267200A5AFA2 /* Assets.xcassets */,
 				71784569273C267200A5AFA2 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				71784563273C267100A5AFA2 /* ViewController.swift in Sources */,
 				7178455F273C267100A5AFA2 /* AppDelegate.swift in Sources */,
 				71784561273C267100A5AFA2 /* SceneDelegate.swift in Sources */,
+				71784573273C2DA400A5AFA2 /* RandomPublisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
