@@ -20,11 +20,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         publisher1 = RandomPublisher(minValue: 0, maxValue: 100, timeInterval: 1)
-        publisher2 = RandomPublisher(minValue: 0, maxValue: 100, timeInterval: 2)
-        publisher3 = RandomPublisher(minValue: 0, maxValue: 100, timeInterval: 3)
+        publisher2 = RandomPublisher(minValue: 0, maxValue: 100, timeInterval: 3)
+        publisher3 = RandomPublisher(minValue: 0, maxValue: 100, timeInterval: 5)
         
 //        объединение publisher
-        subcscription = publisher1?.zip(publisher2, publisher3).sink(receiveValue: { (valueFromPublisher1, valueFromPublisher2, valueFromPublisher3) in
+        subcscription = publisher1?.combineLatest(publisher2, publisher3).sink(receiveValue: { (valueFromPublisher1, valueFromPublisher2, valueFromPublisher3) in
             print (valueFromPublisher1, valueFromPublisher2, valueFromPublisher3)
         })
         
@@ -32,8 +32,8 @@ class ViewController: UIViewController {
         
         //        print(sum(firstParam: "123", secondParam: "123"))
         
-        let sumClass = SumOfElements<String>(firstParam: "123", secondParam: "123")
-        print(sumClass.sum())
+//        let sumClass = SumOfElements<String>(firstParam: "123", secondParam: "123")
+//        print(sumClass.sum())
         
     }
     
